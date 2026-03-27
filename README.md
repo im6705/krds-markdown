@@ -114,3 +114,8 @@ total_pages: 1181
 - 전자정부 웹사이트 품질관리 지침
 - 한국형 웹 콘텐츠 접근성 지침 (KWCAG 2.2)
 - WCAG 2.1 (적합도 수준 AA 목표)
+
+## 저작권
+본 패키지는 대한민국 디지털 정부 디자인 시스템(KRDS)의 이용약관을 따름.
+
+[KRDS 저작권](https://www.krds.go.kr/html/site/utility/utility_06.html)
