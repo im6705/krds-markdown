@@ -86,13 +86,39 @@ source_pages: "9-40"
 
 서비스 패턴의 사용성 가이드라인은 3개의 적용 수준으로 구분된다.
 
-| 수준 | 준수 시 | 미준수 시 |
-|---|---|---|
-| **필수 (Do)** | 보편적인 기대 수준까지 만족도 증가 (기본적인 경험) | 작업 실패로 직접 이어짐. 사용자가 스스로 완료 불가 |
-| **권장 (Better)** | 더 많은 사용자의 만족도 증가 (실용적인 경험) | 작업 난도 증가하지만 실패 초래하지 않음. 스스로 해결 불가 |
-| **우수 (Best)** | 만족도가 기하급수적으로 증가 (매력적인 경험) | 불편 또는 비효율적 절차 경험. 최적의 경험 제공 어려움 |
+| 수준 | 영문 | 준수 시 | 미준수 시 | WCAG 대응 |
+|---|---|---|---|---|
+| **필수 (Do)** | Do | 보편적인 기대 수준까지 만족도 증가 (기본적인 경험) | 작업 실패로 직접 이어짐. 사용자가 스스로 완료 불가 | 주로 WCAG 2.1 A 수준 |
+| **권장 (Better)** | Better | 더 많은 사용자의 만족도 증가 (실용적인 경험) | 작업 난도 증가하지만 실패 초래하지 않음. 스스로 해결 불가 | 주로 WCAG 2.1 AA 수준 |
+| **우수 (Best)** | Best | 만족도가 기하급수적으로 증가 (매력적인 경험) | 불편 또는 비효율적 절차 경험. 최적의 경험 제공 어려움 | WCAG 2.1 AAA 수준 포함 |
 
 > **주의**: 최상위 수준 준수가 하위 수준 준수를 보장하지 않음. 대부분의 최상위 수준 가이드라인은 하위 수준이 준수된 상태에서 효과를 나타내도록 구성됨.
+
+### 적용 수준 동적 전환
+
+서비스별로 적용 수준을 설정 파일(JSON)로 관리하고, 런타임에 해당 수준에 맞는 컴포넌트/기능을 동적으로 활성화할 수 있다. HTML `data-krds-level` 속성과 CSS 선택자를 활용하여 수준별 기능을 분기하며, JavaScript `KRDSComplianceManager` 클래스를 통해 프로그래밍적으로 수준을 전환할 수 있다. 상세한 구현 가이드는 `14-application-levels.md`를 참고한다.
+
+```html
+<!-- HTML에서 적용 수준 지정 -->
+<html lang="ko" data-krds-level="better">
+```
+
+```css
+/* CSS에서 수준별 기능 분기 */
+[data-krds-level="best"] .krds-service-list__direct-action {
+  display: inline-flex;  /* Best 수준에서만 바로가기 버튼 표시 */
+}
+```
+
+```javascript
+// JavaScript에서 수준별 기능 확인
+const manager = new KRDSComplianceManager('/config/service.json');
+await manager.loadConfig();
+if (manager.isFeatureEnabled('login', 'frequentMethodPriority')) {
+  // 권장(Better) 기능: 자주 사용하는 로그인 방식 우선 표시
+  showFrequentLoginMethods();
+}
+```
 
 ---
 
