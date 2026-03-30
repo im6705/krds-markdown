@@ -28,8 +28,8 @@ total_pages: 1181
 | 05 | [05-shape.md](./05-shape.md) | 형태/래디어스 (5단계, 계산법) | 126-138 |
 | 06 | [06-layout.md](./06-layout.md) | 레이아웃 (그리드, 브레이크포인트, 간격) | 139-161 |
 | 07 | [07-elevation.md](./07-elevation.md) | 엘리베이션 (6단계, 그림자, 딤드) | 177-191 |
-| 08 | [08-high-contrast.md](./08-high-contrast.md) | 선명한 화면 모드 (High Contrast) | 192-204 |
-| 09 | [09-design-tokens.md](./09-design-tokens.md) | 디자인 토큰 (3-level 체계, 표기법, 모드 전환) | 205-216 |
+| 08 | [08-high-contrast.md](./08-high-contrast.md) | 선명한 화면 모드 및 다크 모드 (디스플레이 모드, CSS/JS 구현, 모드별 토큰) | 192-204 |
+| 09 | [09-design-tokens.md](./09-design-tokens.md) | 디자인 토큰 (3-level 체계, CSS/JS/HTML 구현, 빌드 파이프라인, 버전 관리, 마이크로프론트엔드) | 205-216 |
 
 ### 컴포넌트 (Components)
 
@@ -41,9 +41,10 @@ total_pages: 1181
 
 | # | 파일 | 제목 | PDF 페이지 |
 |---|---|---|---|
-| 11 | [11-patterns-login.md](./11-patterns-login.md) | 로그인 서비스 패턴 (7단계 플로) | 977-1043 |
+| 11 | [11-patterns-login.md](./11-patterns-login.md) | 로그인 서비스 패턴 (7단계 플로, HTML/CSS/JS 구현, 폼 검증, 세션 관리) | 977-1043 |
 | 12 | [12-patterns-application.md](./12-patterns-application.md) | 신청 서비스 패턴 (4단계 플로) | 1052-1129 |
 | 13 | [13-patterns-basic.md](./13-patterns-basic.md) | 기본 패턴 (개인정보입력, 도움, 동의, 목록탐색) | 754-798 |
+| 14 | [14-application-levels.md](./14-application-levels.md) | 적용 수준 전략 (Do/Better/Best 동적 전환, 설정 관리, React/JS 구현, 컴플라이언스 점검) | 36-40 |
 
 ---
 
