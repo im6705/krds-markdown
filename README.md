@@ -46,6 +46,13 @@ total_pages: 1181
 | 13 | [13-patterns-basic.md](./13-patterns-basic.md) | 기본 패턴 (개인정보입력, 도움, 동의, 목록탐색) | 754-798 |
 | 14 | [14-application-levels.md](./14-application-levels.md) | 적용 수준 전략 (Do/Better/Best 동적 전환, 설정 관리, React/JS 구현, 컴플라이언스 점검) | 36-40 |
 
+### 프레임워크 적용 가이드
+
+| # | 파일 | 제목 | 소스 |
+|---|---|---|---|
+| 15 | [15-react-guide.md](./15-react-guide.md) | React에서 KRDS 적용 가이드 (설치, 컴포넌트 래핑, 토큰 적용, 모드 전환) | [KRDS 개발자 페이지](https://www.krds.go.kr/html/site/outline/outline_03.html) |
+| 16 | [16-vue-guide.md](./16-vue-guide.md) | Vue에서 KRDS 적용 가이드 (설치, 컴포넌트 래핑, 토큰 적용, Composable/Pinia) | [KRDS 개발자 페이지](https://www.krds.go.kr/html/site/outline/outline_03.html) |
+
 ---
 
 ## 핵심 수치 참조표
@@ -117,6 +124,6 @@ total_pages: 1181
 - WCAG 2.1 (적합도 수준 AA 목표)
 
 ## 저작권
-본 마크다운 문서는 대한민국 디지털 정부 디자인 시스템(KRDS)의 이용약관을 따름.
+본 패키지는 대한민국 디지털 정부 디자인 시스템(KRDS)의 이용약관을 따름.
 
 [KRDS 저작권](https://www.krds.go.kr/html/site/utility/utility_06.html)
