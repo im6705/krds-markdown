@@ -37,30 +37,30 @@ total_pages: 1181
 |---|---|---|---|
 | 10 | [10-components.md](./10-components.md) | 컴포넌트 개요 (10개 범주, 아이덴티티 상세) | 217-250 |
 
-### 서비스 패턴 (Service Patterns)
-
-| # | 파일 | 제목 | 소스 |
-|---|---|---|---|
-| 17 | [17-service-patterns-intro.md](./17-service-patterns-intro.md) | 서비스 패턴 소개 (5대 핵심 패턴 개요, 적용 수준 체계) | [KRDS 서비스 패턴 소개](https://www.krds.go.kr/html/site/service/service_summary.html) |
-| 18 | [18-patterns-visit.md](./18-patterns-visit.md) | 방문 서비스 패턴 (콘텐츠 유형, 3단계 플로, 사용성 가이드라인 9항목) | [KRDS 방문](https://www.krds.go.kr/html/site/service/service_01_01.html) |
-| 19 | [19-patterns-search.md](./19-patterns-search.md) | 검색 서비스 패턴 (7단계 상세, 구조/사용성/접근성/상호작용 가이드라인) | [KRDS 검색](https://www.krds.go.kr/html/site/service/service_02_01.html) |
-| 11 | [11-patterns-login.md](./11-patterns-login.md) | 로그인 서비스 패턴 (7단계 상세, 구조/사용성/접근성/상호작용 가이드라인, 체크리스트 31항목) | [KRDS 로그인](https://www.krds.go.kr/html/site/service/service_03_01.html) |
-| 12 | [12-patterns-application.md](./12-patterns-application.md) | 신청 서비스 패턴 (7단계 상세, 구조/사용성/접근성 가이드라인, 체크리스트 50항목) | [KRDS 신청](https://www.krds.go.kr/html/site/service/service_04_01.html) |
-| 20 | [20-patterns-policy.md](./20-patterns-policy.md) | 정책 정보 확인 서비스 패턴 (3단계 상세, 구조/사용성/접근성 가이드라인) | [KRDS 정책 정보 확인](https://www.krds.go.kr/html/site/service/service_05_01.html) |
-
 ### 기본 패턴 및 적용 수준 (Basic Patterns)
 
 | # | 파일 | 제목 | PDF 페이지 |
 |---|---|---|---|
-| 13 | [13-patterns-basic.md](./13-patterns-basic.md) | 기본 패턴 (개인정보입력, 도움, 동의, 목록탐색) | 754-798 |
+| 11 | [11-patterns-basic.md](./11-patterns-basic.md) | 기본 패턴 (개인정보입력, 도움, 동의, 목록탐색) | 754-798 |
+| 12 | [12-patterns-login.md](./12-patterns-login.md) | 로그인 서비스 패턴 (7단계 상세, 구조/사용성/접근성/상호작용 가이드라인, 체크리스트 31항목) | [KRDS 로그인](https://www.krds.go.kr/html/site/service/service_03_01.html) |
+| 13 | [13-patterns-application.md](./13-patterns-application.md) | 신청 서비스 패턴 (7단계 상세, 구조/사용성/접근성 가이드라인, 체크리스트 50항목) | [KRDS 신청](https://www.krds.go.kr/html/site/service/service_04_01.html) |
 | 14 | [14-application-levels.md](./14-application-levels.md) | 적용 수준 전략 (Do/Better/Best 동적 전환, 설정 관리, React/JS 구현, 컴플라이언스 점검) | 36-40 |
+
+### 서비스 패턴 (Service Patterns)
+
+| # | 파일 | 제목 | 소스 |
+|---|---|---|---|
+| 15 | [15-service-patterns-intro.md](./15-service-patterns-intro.md) | 서비스 패턴 소개 (5대 핵심 패턴 개요, 적용 수준 체계) | [KRDS 서비스 패턴 소개](https://www.krds.go.kr/html/site/service/service_summary.html) |
+| 16 | [16-patterns-visit.md](./16-patterns-visit.md) | 방문 서비스 패턴 (콘텐츠 유형, 3단계 플로, 사용성 가이드라인 9항목) | [KRDS 방문](https://www.krds.go.kr/html/site/service/service_01_01.html) |
+| 17 | [17-patterns-search.md](./17-patterns-search.md) | 검색 서비스 패턴 (7단계 상세, 구조/사용성/접근성/상호작용 가이드라인) | [KRDS 검색](https://www.krds.go.kr/html/site/service/service_02_01.html) |
+| 18 | [18-patterns-policy.md](./18-patterns-policy.md) | 정책 정보 확인 서비스 패턴 (3단계 상세, 구조/사용성/접근성 가이드라인) | [KRDS 정책 정보 확인](https://www.krds.go.kr/html/site/service/service_05_01.html) |
 
 ### 프레임워크 적용 가이드
 
 | # | 파일 | 제목 | 소스 |
 |---|---|---|---|
-| 15 | [15-react-guide.md](./15-react-guide.md) | React에서 KRDS 적용 가이드 (설치, 컴포넌트 래핑, 토큰 적용, 모드 전환) | [KRDS 개발자 페이지](https://www.krds.go.kr/html/site/outline/outline_03.html) |
-| 16 | [16-vue-guide.md](./16-vue-guide.md) | Vue에서 KRDS 적용 가이드 (설치, 컴포넌트 래핑, 토큰 적용, Composable/Pinia) | [KRDS 개발자 페이지](https://www.krds.go.kr/html/site/outline/outline_03.html) |
+| 19 | [19-react-guide.md](./19-react-guide.md) | React에서 KRDS 적용 가이드 (설치, 컴포넌트 래핑, 토큰 적용, 모드 전환) | [KRDS 개발자 페이지](https://www.krds.go.kr/html/site/outline/outline_03.html) |
+| 20 | [20-vue-guide.md](./20-vue-guide.md) | Vue에서 KRDS 적용 가이드 (설치, 컴포넌트 래핑, 토큰 적용, Composable/Pinia) | [KRDS 개발자 페이지](https://www.krds.go.kr/html/site/outline/outline_03.html) |
 
 ---
 
@@ -133,6 +133,4 @@ total_pages: 1181
 - WCAG 2.1 (적합도 수준 AA 목표)
 
 ## 저작권
-본 패키지는 대한민국 디지털 정부 디자인 시스템(KRDS)의 이용약관을 따름.
-
-[KRDS 저작권](https://www.krds.go.kr/html/site/utility/utility_06.html)
+본 패키지는 대한민국 디지털 �
